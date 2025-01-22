@@ -3,7 +3,7 @@
 <suite name="Suite Demo Allure Report" verbose="1">
     <test name="Test Allure Report">
         <classes>
-            <class name="com.anodtester.AllureReport.BookTest_AllureReport"/>
+            <class name="com.anodtester.AllureReport.ApiBO111_RideHistory"/>
             <class name="com.anodtester.AllureReport.CategoryTest_AllureReport"/>
         </classes>
     </test>
