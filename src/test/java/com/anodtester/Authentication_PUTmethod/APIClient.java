@@ -13,7 +13,7 @@ import org.json.JSONObject;
 public class APIClient {
     public static void main(String[] args) {
         // Nhập Bearer Token sau khi Login
-        String token = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbm9kIiwicm9sZSI6IkFETUlOIiwiaXAiOiIxNjYuODguMTIwLjE0NSIsIngtdG9rZW4iOiI2ZTIwMDQwZjEwZDMxNGFlNGFmNzRiNWNkODgzZDgyOSIsImV4cCI6MTczNzQ0ODM3NiwidXNlcklkIjoxNSwiYnJhbmNoIjoicmFtYSIsImlhdCI6MTczNzQxMjM3NiwidXNlcm5hbWUiOiJhbm9kIn0.-orx77akWmrIzPMAMbO9OHLhRtaDBGlckj6qQe1s0Ur8efpUwc7uJ9ds3PYt9yFfFIlJxCPiCh-VSEPSeoe1Lg";
+        String token = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbm9kIiwicm9sZSI6IkFETUlOIiwiaXAiOiIxNjYuODguMTIwLjE0NSIsIngtdG9rZW4iOiIxZmFjNmJiMDFmOTM1NjlhMTk1YTk0MTExOWY4ZTg5OCIsImV4cCI6MTczNzU2NTU2MywidXNlcklkIjoxNSwiYnJhbmNoIjoicmFtYSIsImlhdCI6MTczNzUyOTU2MywidXNlcm5hbWUiOiJhbm9kIn0.RpWtpvwyYUF71TO5kAERv-LDcIZk0SNUTt7SbMU4OlutOeuTG-YxRLenrTI25GjUShCe_Qf53j8QoHFBVnaiMg";
 
         // URL cho yêu cầu GET
         String urlGet = "https://ticket.ramanaz.net/backoffice/api/v1/permission/user/get";
